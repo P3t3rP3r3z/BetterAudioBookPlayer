@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Android 11 and lower. Only the bookshelf snapshot and settings are backed up: the database
+    holds links to audio files that don't exist on another phone. The snapshot is restored onto
+    books as they're imported again (see ShelfBackup).
+-->
+<full-backup-content>
+    <include domain="file" path="bookshelf/" />
+    <include domain="sharedpref" path="user_preferences.xml" />
+</full-backup-content>

@@ -1,0 +1,50 @@
+# Gradle files
+.gradle/
+build/
+*.apk
+*.ap_
+*.aab
+
+# Local configuration file (SDK path, etc)
+local.properties
+
+# Generated Gradle Wrapper
+!gradle/wrapper/gradle-wrapper.jar
+
+# IDE
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test coverage
+coverage/
+*.ec
+*.gcno
+*.gcda
+
+# Temp
+*.log
+.env
+
+# Local screenshots
+/Screenshot*.png
+
+# JVM heap dumps
+*.hprof
+
+# Release signing (keep the keystore and its passwords out of the repo)
+keystore.properties
+*.jks
+*.keystore
+
+# Kotlin compiler cache and Android Studio signed-bundle output
+.kotlin/
+app/release/
